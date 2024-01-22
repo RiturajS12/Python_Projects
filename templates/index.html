@@ -22,7 +22,6 @@
         <input type="text" id="city" name="city" required>
         <button type="submit">Search</button>
     </form>
-
     {% if weather_info %}
         <h2>Weather condition for {{ weather_info.city }}:</h2>
         <p>Temperature: {{ weather_info.temperature }}°C</p>
